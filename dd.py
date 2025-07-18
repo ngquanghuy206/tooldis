@@ -422,23 +422,24 @@ async def wait_for_message(user, channel, prompt):
 @bot.command()
 async def menu(ctx):
     embed = discord.Embed(
-        title="🔥 Menu Lệnh Bot 🔥",
+        title="BOT DISCORD TREO ACCCOUT DISCORD",
         description="Chọn một lệnh từ menu dưới đây để thực thi. Chỉ admin và người tạo thread được tương tác!\n📌 **Lưu ý**: Các lệnh spam/join chỉ hoạt động trong thread riêng.",
         color=discord.Color.purple()
     )
     embed.add_field(
         name="📜 Lệnh Spam",
-        value="**📜 Treo**: Gửi nội dung người dùng nhập\n"
-              "**🎲 Nhây**: Gửi tin nhắn ngẫu nhiên từ file\n"
-              "**🎭 Nhây 2C**: Gửi tin nhắn từ 2c.txt\n"
-              "**⌨️ Fake**: Gửi tin nhắn với giả lập gõ\n"
-              "**📢 Réo**: Gửi tin nhắn réo tên\n"
-              "**🖼️ Treo Ảnh**: Gửi ảnh + nội dung người dùng nhập",
+        value="**📜 Treo**: Treo ngôn đa token\n"
+              "**🎲 Nhây**: Treo nhây đa token (Fake soạn)\n"
+              "**🎭 Nhây 2C**: Treo nhây 2 chữ đa token\n"
+              "**⌨️ Fake**: Nhây tag đa token\n"
+              "**📢 Réo**: Nhây tag + réo đa token\n"
+              "**🖼️ Treo Ảnh**: Treo ngôn + ảnh đa token",
         inline=True
     )
     embed.add_field(
-        name="🚪 Lệnh Join",
+        name="🚪 Lệnh Tiện Ích",
         value="**🚪 Join**: Tham gia server qua link mời",
+	        
         inline=True
     )
     embed.add_field(
